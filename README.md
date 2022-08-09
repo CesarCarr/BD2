@@ -1,1 +1,1 @@
-# BD2 - Databsse II Classes
+# BD2 - Database II Classes
