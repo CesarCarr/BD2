@@ -33,11 +33,13 @@ SHOW GRANTS FOR ray_gu3019977;
 #Login com ray_gu3019977
 
 #--Ex5
-SELECT id FROM fornecedores;
+#Não existe a tabela fornecedores
+#Troquei para vendor_contacts
+
+SELECT vendor_id FROM vendor_contacts;
 
 #--Ex6
-SELECT id FROM fornecedores
-    WHERE id = 0;
+DELETE FROM vendor_contacts WHERE vendor_id = 1;
 
 #--Ex7
 mysql -u root -p;
